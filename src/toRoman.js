@@ -1,9 +1,8 @@
+import { romanNumbers, romanTens, romanHundreds, romanThousands } from './romanNumbers';
+
 function toRoman(arabic) {
     let roman = "none";
-    const romanNumbers = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
-    const romanTens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"];
-    const romanHundreds = ["", "C", "CC", 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
-    const romanThousands = ["", "M", "MM", "MMM"];
+    
     roman = romanThousands[Math.floor(arabic/1000)] + romanHundreds[Math.floor(arabic%1000/100)] + romanTens[Math.floor(arabic%100/10)] + romanNumbers[arabic%10];
     if (arabic == 0) roman = "none";
     /*

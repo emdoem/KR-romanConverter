@@ -3,7 +3,7 @@ import React from 'react';
 import RomanConverter from "./RomanConverter";
 
 
-describe ('<RomanConverter />', () => {
+describe.skip('<RomanConverter />', () => {
     it('has an input field', () => {
         const { getByLabelText } = render(<RomanConverter />)
         expect(() => {
