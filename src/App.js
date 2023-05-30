@@ -1,10 +1,14 @@
 import './App.css';
-import RomanConverter from './RomanConverter';
-import RomanConverer from './RomanConverter'
+import ArabicConverter from './components/ArabicConverter';
+import RomanConverter from './components/RomanConverter';
 
 function App() {
   return (
-    <RomanConverter />
+    <>
+      <RomanConverter className="converter"/>
+      <ArabicConverter className="converter"/>
+    </>
+    
   );
 }
 

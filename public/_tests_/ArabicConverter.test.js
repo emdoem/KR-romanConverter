@@ -2,7 +2,7 @@ import { render, fireEvent } from "@testing-library/react";
 import React from 'react';
 import ArabicConverter from './ArabicConverter';
 
-describe ('<ArabicConverter />', () => {
+describe('<ArabicConverter />', () => {
     it('has an input field', () => {
         const { getByLabelText } = render(<ArabicConverter />)
         expect(() => {
