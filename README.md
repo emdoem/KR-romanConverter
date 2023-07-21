@@ -1,7 +1,7 @@
 #romanConverter App
 Kurs Reacta / React.js course
 
-An excercise on Test Driven Development - app converting numbers (roman-arabic - both ways) up to 3000.
+An excercise on Test Driven Development - app converting numbers (roman-arabic - both ways) up to 4000.
 
 # Getting Started with Create React App
 
