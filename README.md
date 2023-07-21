@@ -1,3 +1,8 @@
+#romanConverter App
+Kurs Reacta / React.js course
+
+An excercise on Test Driven Development - app converting numbers (roman-arabic - both ways) up to 3000.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
