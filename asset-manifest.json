@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KR-romanConverter/static/css/main.66a630f5.css",
+    "main.js": "/KR-romanConverter/static/js/main.c0a01f7f.js",
+    "static/js/787.8160721b.chunk.js": "/KR-romanConverter/static/js/787.8160721b.chunk.js",
+    "index.html": "/KR-romanConverter/index.html",
+    "main.66a630f5.css.map": "/KR-romanConverter/static/css/main.66a630f5.css.map",
+    "main.c0a01f7f.js.map": "/KR-romanConverter/static/js/main.c0a01f7f.js.map",
+    "787.8160721b.chunk.js.map": "/KR-romanConverter/static/js/787.8160721b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66a630f5.css",
+    "static/js/main.c0a01f7f.js"
+  ]
+}
